@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Barlow", "Fraunces", sans-serif;
+}
+
+.home-desktop-bg {
+  background-image: url(./images/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* This will ensure the image covers the entire container */
+  background-attachment: fixed; /* This will make the background image fixed when scrolling */
+  background-clip: border-box; /* This will clip the background to the border box */
+  background-origin: padding-box; /* This will position the background relative to the padding box */
+}
+
+li {
+  @apply hover:cursor-pointer;
+}
+
+.egg-bg {
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.audience-bg {
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graphics-bg {
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
