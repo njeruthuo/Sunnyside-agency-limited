@@ -14,7 +14,9 @@ const Navbar = () => {
         <li className="mr-auto">
           <img src={logo} alt="" />
         </li>
-        <li className="hidden sm:block">About</li>
+        <li className="hidden sm:block">
+          <a href="#about">About</a>
+        </li>
         <li className="hidden sm:block">Services</li>
         <li className="hidden sm:block">Projects</li>
         <li className="text-black hidden sm:block bg-white py-2 px-4 rounded-2xl hover:cursor-pointer font-bold text-xs">

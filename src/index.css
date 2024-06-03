@@ -20,23 +20,59 @@ li {
   @apply hover:cursor-pointer;
 }
 
-.egg-bg {
-  background-image: url(./images/desktop/image-transform.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#about h1 {
+  @apply text-xl font-bold my-2 w-72;
 }
 
-.audience-bg {
-  background-image: url(./images/desktop/image-stand-out.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#about h2 {
+  @apply text-xl font-bold my-2;
+}
+
+p {
+  @apply text-sm w-96;
+}
+
+
+article {
+  @apply mt-12 hover:cursor-pointer flex w-28 hover:border-b-4 hover:border-b-SoftRed;
+}
+
+#testimonials img {
+  @apply my-4;
+}
+
+#testimonials #name {
+  @apply font-bold text-base;
+}
+
+#testimonials #position {
+  @apply text-pretty text-GrayishBlue;
+}
+
+#testimonials p {
+  line-height: 22px;
+  word-spacing: 2px;
+  @apply w-72;
 }
 
 .graphics-bg {
-  background-image: url(./images/desktop/image-transform.jpg);
+  background-image: url(./images/desktop/image-graphic-design.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.photo-bg {
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  #footer p{
+    @apply hover:text-white hover:cursor-pointer
+  }
+
+  #footer img{
+    @apply hover:cursor-pointer
+  }

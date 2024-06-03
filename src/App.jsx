@@ -1,6 +1,9 @@
 import About from "./components/About";
+import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -10,6 +13,9 @@ const App = () => {
         <Home />
       </div>
       <About />
+      <Testimonials />
+      <Gallery />
+      <Footer />
     </div>
   );
 };

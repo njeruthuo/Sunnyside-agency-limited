@@ -16,8 +16,11 @@ export default {
         White: "hsl(0, 0%, 100%)",
       },
       backgroundImage: {
-        // egg: "url('./images/image-transform.svg')",
+        desktopEgg: "url('./images/desktop/image-transform.jpg')",
+        mobileEgg: "url('./images/mobile/image-transform.jpg')",
+        desktopHomeOrange: "url('./images/desktop/image-header.jpg')",
       },
+      
     },
   },
   plugins: [],
